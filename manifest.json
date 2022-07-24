@@ -1,0 +1,11 @@
+{
+  "name": "STB comments organizer",
+  "description": "Seattle Transit Blog comment toggler and sorter; may add tagging feature later",
+  "version": "0.1",
+  "manifest_version": 3,
+  "content_scripts": [{
+    "matches": ["https://*.seattletransitblog.com/*"],
+    "js": ["main.js"]
+  }],
+  "permissions": []
+}
